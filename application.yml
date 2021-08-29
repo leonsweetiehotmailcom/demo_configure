@@ -1,3 +1,13 @@
+logging:
+  level:
+    root: INFO
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
 aaa:
   bbb:
     ccc: 123456
