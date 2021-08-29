@@ -1,0 +1,9 @@
+server:
+  port: 8030
+
+hystrix:
+  dashboard:
+    proxyStreamAllowList: '*'
+turbine:
+  cluster-name-expression: "'default'"
+  app-config: consumer,user,hystrix-dashboard

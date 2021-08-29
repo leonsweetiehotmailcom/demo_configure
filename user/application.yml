@@ -8,10 +8,3 @@ spring:
     url: jdbc:mysql://localhost:3306/BatchTest?serverTimezone=UTC
     username: liang
     password: passw0rd
-
-eureka:
-  client:
-    service-url:
-      defaultZone: http://peer1:9001/eureka/,http://peer2:9002/eureka/,http://peer3:9003/eureka/
-  instance:
-    prefer-ip-address: true
