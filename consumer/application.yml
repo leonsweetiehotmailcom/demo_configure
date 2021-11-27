@@ -9,9 +9,9 @@ spring:
     username: liang
     password: passw0rd
 
-user:
-  ribbon:
-    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+#user:
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
 
 feign:
   compression:
